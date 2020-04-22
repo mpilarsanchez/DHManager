@@ -16,11 +16,11 @@ public class Curso {
 
 	private List<Alumno> listaAlumnosDelCurso;
 
-	public Curso(String nombre, Integer codigo) {
+	public Curso(String nombre, Integer codigo, Integer cupoDisponible) {
 		super();
 		this.nombre = nombre;
 		this.codigo = codigo;
-		this.cupoDisponible = 15;
+		this.cupoDisponible = cupoDisponible;
 		this.listaAlumnosDelCurso = new ArrayList<Alumno>();
 	}
 
