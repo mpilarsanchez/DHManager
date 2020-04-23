@@ -1,6 +1,4 @@
-package com.DHManager.DHManager;
-
-import com.DHManager.DHManager.entidades.Profesor;
+package com.DHManager.DHManager.entidades;
 
 public class ProfesorAdjunto extends Profesor {
   

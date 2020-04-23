@@ -3,8 +3,6 @@ package com.DHManager.DHManager.entidades;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.DHManager.DHManager.ProfesorAdjunto;
-
 public class DigitalHouseManager {
 
 	private List<Alumno> listaAlumnos;
