@@ -88,6 +88,13 @@ public class DigitalHouseManagerController {
 	
 	
 	
-	
+	/**
+	 * PARTE K
+	 * ¿Cómo modificaría el diagrama de clases para que se le pueda consultar a un alumno a qué cursos está inscripto?
+// Responder a la pregunta en el rest controller, mediante un comentario.
+ *   
+ *   Agregaria al Alumno un listadoDeCursos: List<Curso>
+ *   y traeria los cursos con alumno.getlistaDeCursos();
+	 */
 	
 }
