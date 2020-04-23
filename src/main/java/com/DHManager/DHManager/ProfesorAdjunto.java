@@ -4,7 +4,6 @@ import com.DHManager.DHManager.entidades.Profesor;
 
 public class ProfesorAdjunto extends Profesor {
   
-	
 
 	Integer cantidadHorasConsulta;
 	
