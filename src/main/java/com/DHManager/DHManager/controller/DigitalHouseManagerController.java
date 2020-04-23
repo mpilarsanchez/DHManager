@@ -78,8 +78,10 @@ public class DigitalHouseManagerController {
 	}
 	
 	@PutMapping(value = "/actualizarAlumno")
-	public void actualizarAlumno(@RequestParam String nombre, @RequestParam String apellido, @RequestParam Integer codigoAlumno) {
-		
+	public void actualizarAlumno(@RequestParam Alumno alumno, @RequestParam String nombre, @RequestParam String apellido, @RequestParam Integer codigoAlumno ) {
+		alumno.setNombre(nombre);
+        alumno.setApellido(apellido);
+        alumno.setCodigo(codigoAlumno);
 	}
 	
 	
