@@ -25,11 +25,7 @@ public class DigitalHouseManagerController {
 	@Autowired
 	private DigitalHouseManager digitalHouseManagger;
 	
-	@Autowired
-	private Alumno alumno;
 
-	
-	
 	@PostMapping(value = "/crearTitular")
 	public void crearTitular(@RequestParam String nombre, @RequestParam String apellido, @RequestParam Integer codigoProfesor, @RequestParam String especialidad){
 		digitalHouseManagger.altaProfesorTitular(nombre, apellido, codigoProfesor, especialidad);
